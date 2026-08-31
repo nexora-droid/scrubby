@@ -1,0 +1,11 @@
+[project]
+name = "scrubby"
+version = "0.1.0"
+dependencies = [
+    "typer",
+    "pyfiglet",
+    "colorama"
+]
+
+[project.scripts]
+scrubby = "main:app"
